@@ -8,6 +8,10 @@ Arxiv.org announces new submissions every day on fixed time as informed [here](h
 
 This repository makes it easy to filter papers and follow-up new papers which are in your interests by creating an issue in a github repository.
 
+**What you would get everyday:**
+
+<img src="https://raw.githubusercontent.com/nashory/get-daily-arxiv-noti-public/master/img/sample.png"></img>
+
 ## What is changed
 + [ ] Automatic merging between topics.
 + [ ] More convinient keywords configuration in `config.py` file.
