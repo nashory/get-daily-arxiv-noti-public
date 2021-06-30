@@ -10,7 +10,7 @@ This repository makes it easy to filter papers and follow-up new papers which ar
 
 **What you would get everyday:**
 
-<img src="https://raw.githubusercontent.com/nashory/get-daily-arxiv-noti-public/devel/img/sample.png"></img>
+<img src="https://raw.githubusercontent.com/nashory/get-daily-arxiv-noti-public/master/img/sample.png"></img>
 
 ## What is changed
 + [ ] Automatic merging between topics.
