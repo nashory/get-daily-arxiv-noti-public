@@ -49,7 +49,10 @@ REPO_NAME = 'changeme'
 NEW_SUB_URL = 'https://arxiv.org/list/cs/new'
 
 # Keywords to search
-KEYWORD_LIST = ["changeme"]
+KEYWORD_LIST = {
+	"self-supervised": ["self-supervised learning", "constrastive", "SwAV"],
+	"multi-modal": ["multi-modal, "cross-modal"]
+}
 ```
 
 #### 3. Set Cronjob
@@ -72,5 +75,5 @@ sudo systemctl list-unit-files | grep cron && sudo service cron status
 
 # cron 편집
 crontab -e
-0 9 * * mon-fri python PATH-TO-CODE/get-daily-arxiv-noti/main.py
+0 9 * * mon-fri python PATH-TO-CODE/get-daily-arxiv-noti-public/main.py
 ```
